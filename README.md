@@ -2,6 +2,8 @@
 
 I've provided many different examples of ways you could make plugins, including all the source. It should be able to be expanded with other engines. OpenTK is one of the most barebones because it's essentially just C# OpenGL bindings, which is a graphics library only. As long as you can create an array of 4 byte colors you should be able to adapt your own libraries for the plugin.
 
+In theory, it should be possible to port everything here to other .NET languages, but I'm only familiar with using C#.
+
 -External DLLS
   CLRHost.Interop; Required for the OBS plugin support, source can be found at https://github.com/kc5nra/CLRHostPlugin
   VHMediaCOM.dll; Included when you install XSplit.
